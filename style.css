@@ -1,0 +1,94 @@
+*{
+    
+    border-radius:25px;
+    
+}
+h1{
+    color:black;
+    margin-left: 30px;
+    
+}
+p,h2{
+    color:black;
+    text-align: center;
+
+}
+.header{
+    display:flex;
+    justify-content:center;
+    background-color: greenyellow;
+    font-size: 100;
+}
+.slogan1{
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.slogan2{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-right: 1300px;
+    margin-top: -800px;
+}
+
+.Grid{
+    display:flex;
+    background-color:rgb(192, 214, 255);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+.Footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color:red;
+}
+body{
+    background-color:pink;
+}
+a:link{
+    color:black
+}
+a:visited{
+    color:#e44646;
+}
+.Menu{
+    margin-right: 30px;
+
+}
+.Menu a{
+margin-left: 20px;
+}
+.Item{
+    position:relative;
+    
+}
+.Item1{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 750px;
+}
+.Item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity: 0;
+}
+.Item:hover p{
+    opacity: 1;
+}
+.Item:hover img{
+opacity:0.3;
+}
